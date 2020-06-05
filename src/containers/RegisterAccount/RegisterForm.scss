@@ -1,0 +1,76 @@
+.register {
+    width: 100%;
+    height: 100%;
+    background: #ecf0f3;
+
+    .register-form {
+        height: 100vh;
+        width: 80%;
+        margin: auto auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 40px;
+        padding: 60px 35px 35px 35px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+            -13px -13px 20px #ffffff;
+
+        input {
+            width: 100%;
+            border: 1px solid #eee;
+            outline: none;
+            background: none;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+            border-radius: 25px;
+            box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+            // padding: 20px 10px 20px 5px;
+
+
+        }
+
+
+    }
+}
+
+.form-group {
+    width: 40%;
+    display: block;
+}
+
+.btn-signup {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.btn-reset {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px
+}

@@ -1,0 +1,52 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    span {
+        width: 40px;
+        height: 40px;
+        color: black;
+        cursor: pointer;
+
+        background-color: yellow;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+            -13px -13px 20px #ffffff;
+    }
+}
+
+
+
+
+
+
+
+// import { Pagination } from 'antd';
+
+// class App extends React.Component {
+//   state = {
+//     current: 3,
+//   };
+
+//   onChange = page => {
+//     console.log(page);
+//     this.setState({
+//       current: page,
+//     });
+//   };
+
+//   render() {
+//     return <Pagination current={this.state.current} onChange={this.onChange} total={50} />;
+//   }
+// }
+
+// ReactDOM.render(<App />, mountNode);

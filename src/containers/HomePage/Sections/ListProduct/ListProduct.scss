@@ -1,0 +1,30 @@
+.list_product {
+     width: 100%;
+     margin: 0 auto;
+     display: flex;
+
+     .list-item {
+          width: 100%;
+          padding: 10px;
+          background: linear-gradient(112.72013189013455deg, rgba(167, 204, 225, 1) 4.927083333333334%, rgba(236, 246, 237, 1) 97.84374999999999%);
+     }
+
+     .sidebar {
+
+
+          li {
+
+               font-weight: 700;
+               color: rgb(0, 158, 127);
+               box-shadow: rgba(0, 0, 0, 0.16) 0px 21px 36px;
+          }
+     }
+}
+
+
+@media only screen and (max-width: 1200px) {
+     .sidebar {
+          display: none;
+     }
+
+}
